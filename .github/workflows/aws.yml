@@ -19,7 +19,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-central-1
       - name: Navigate to frontend
-        run: cd frontend
+        run: cd /home/runner/work/crud-app-aws-deployment/frontend
         
       - name: Install Dependencies
         run: npm install
