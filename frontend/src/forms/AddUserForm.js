@@ -12,7 +12,7 @@ const AddUserForm = (props) => {
     // Validate the Name field
     if (field === "name" || !field) {
       if (!user.name.trim() && (!field || field === "name")) {
-        newErrors.name = "Name is required.";
+        newErrors.name = "Your Name is required. ";
       } else {
         delete newErrors.name;
       }
